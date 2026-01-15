@@ -6,8 +6,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'https://dujcryvfdtjkipurkjgd.supabase.co',
-    anonKey: 'sb_publishable_Q4efGvyGpb35OFCLgFDPXw_HGGMu3od',
+    url: '(Url)',
+    anonKey: '(User Key)',
   );
 
   runApp(const MyApp());
